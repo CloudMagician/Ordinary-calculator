@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B0017A0520B19683008FDA86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0017A0420B19683008FDA86 /* AppDelegate.swift */; };
-		B0017A0720B19683008FDA86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0017A0620B19683008FDA86 /* ViewController.swift */; };
-		B0017A0C20B19683008FDA86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0017A0B20B19683008FDA86 /* Assets.xcassets */; };
-		B0017A0F20B19683008FDA86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0017A0D20B19683008FDA86 /* LaunchScreen.storyboard */; };
-		B0017A1720B1981C008FDA86 /* Calbrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0017A1620B1981C008FDA86 /* Calbrain.swift */; };
-		B0017A1A20B1993C008FDA86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0017A1820B1993C008FDA86 /* Main.storyboard */; };
+		B0017A2820B19AB2008FDA86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0017A2720B19AB2008FDA86 /* AppDelegate.swift */; };
+		B0017A2A20B19AB2008FDA86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0017A2920B19AB2008FDA86 /* ViewController.swift */; };
+		B0017A2D20B19AB2008FDA86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0017A2B20B19AB2008FDA86 /* Main.storyboard */; };
+		B0017A2F20B19AB2008FDA86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0017A2E20B19AB2008FDA86 /* Assets.xcassets */; };
+		B0017A3220B19AB2008FDA86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0017A3020B19AB2008FDA86 /* LaunchScreen.storyboard */; };
+		B0017A3A20B19B25008FDA86 /* Calbrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0017A3920B19B25008FDA86 /* Calbrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B0017A0120B19683008FDA86 /* Ordinary-calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ordinary-calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0017A0420B19683008FDA86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B0017A0620B19683008FDA86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B0017A0B20B19683008FDA86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B0017A0E20B19683008FDA86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B0017A1020B19684008FDA86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B0017A1620B1981C008FDA86 /* Calbrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calbrain.swift; sourceTree = "<group>"; };
-		B0017A1920B1993C008FDA86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0017A2420B19AB2008FDA86 /* Ocalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ocalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0017A2720B19AB2008FDA86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0017A2920B19AB2008FDA86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B0017A2C20B19AB2008FDA86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0017A2E20B19AB2008FDA86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0017A3120B19AB2008FDA86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0017A3320B19AB2008FDA86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0017A3920B19B25008FDA86 /* Calbrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calbrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B00179FE20B19683008FDA86 /* Frameworks */ = {
+		B0017A2120B19AB2008FDA86 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B00179F820B19683008FDA86 = {
+		B0017A1B20B19AB2008FDA86 = {
 			isa = PBXGroup;
 			children = (
-				B0017A0320B19683008FDA86 /* Ordinary-calculator */,
-				B0017A0220B19683008FDA86 /* Products */,
+				B0017A2620B19AB2008FDA86 /* Ocalculator */,
+				B0017A2520B19AB2008FDA86 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B0017A0220B19683008FDA86 /* Products */ = {
+		B0017A2520B19AB2008FDA86 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B0017A0120B19683008FDA86 /* Ordinary-calculator.app */,
+				B0017A2420B19AB2008FDA86 /* Ocalculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B0017A0320B19683008FDA86 /* Ordinary-calculator */ = {
+		B0017A2620B19AB2008FDA86 /* Ocalculator */ = {
 			isa = PBXGroup;
 			children = (
-				B0017A0420B19683008FDA86 /* AppDelegate.swift */,
-				B0017A0620B19683008FDA86 /* ViewController.swift */,
-				B0017A1620B1981C008FDA86 /* Calbrain.swift */,
-				B0017A1820B1993C008FDA86 /* Main.storyboard */,
-				B0017A0B20B19683008FDA86 /* Assets.xcassets */,
-				B0017A0D20B19683008FDA86 /* LaunchScreen.storyboard */,
-				B0017A1020B19684008FDA86 /* Info.plist */,
+				B0017A2720B19AB2008FDA86 /* AppDelegate.swift */,
+				B0017A2920B19AB2008FDA86 /* ViewController.swift */,
+				B0017A3920B19B25008FDA86 /* Calbrain.swift */,
+				B0017A2B20B19AB2008FDA86 /* Main.storyboard */,
+				B0017A2E20B19AB2008FDA86 /* Assets.xcassets */,
+				B0017A3020B19AB2008FDA86 /* LaunchScreen.storyboard */,
+				B0017A3320B19AB2008FDA86 /* Info.plist */,
 			);
-			path = "Ordinary-calculator";
+			path = Ocalculator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B0017A0020B19683008FDA86 /* Ordinary-calculator */ = {
+		B0017A2320B19AB2008FDA86 /* Ocalculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B0017A1320B19684008FDA86 /* Build configuration list for PBXNativeTarget "Ordinary-calculator" */;
+			buildConfigurationList = B0017A3620B19AB2008FDA86 /* Build configuration list for PBXNativeTarget "Ocalculator" */;
 			buildPhases = (
-				B00179FD20B19683008FDA86 /* Sources */,
-				B00179FE20B19683008FDA86 /* Frameworks */,
-				B00179FF20B19683008FDA86 /* Resources */,
+				B0017A2020B19AB2008FDA86 /* Sources */,
+				B0017A2120B19AB2008FDA86 /* Frameworks */,
+				B0017A2220B19AB2008FDA86 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Ordinary-calculator";
-			productName = "Ordinary-calculator";
-			productReference = B0017A0120B19683008FDA86 /* Ordinary-calculator.app */;
+			name = Ocalculator;
+			productName = Ocalculator;
+			productReference = B0017A2420B19AB2008FDA86 /* Ocalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B00179F920B19683008FDA86 /* Project object */ = {
+		B0017A1C20B19AB2008FDA86 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "jetfire lu";
 				TargetAttributes = {
-					B0017A0020B19683008FDA86 = {
+					B0017A2320B19AB2008FDA86 = {
 						CreatedOnToolsVersion = 9.3.1;
 					};
 				};
 			};
-			buildConfigurationList = B00179FC20B19683008FDA86 /* Build configuration list for PBXProject "Ordinary-calculator" */;
+			buildConfigurationList = B0017A1F20B19AB2008FDA86 /* Build configuration list for PBXProject "Ocalculator" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,63 +110,63 @@
 				en,
 				Base,
 			);
-			mainGroup = B00179F820B19683008FDA86;
-			productRefGroup = B0017A0220B19683008FDA86 /* Products */;
+			mainGroup = B0017A1B20B19AB2008FDA86;
+			productRefGroup = B0017A2520B19AB2008FDA86 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B0017A0020B19683008FDA86 /* Ordinary-calculator */,
+				B0017A2320B19AB2008FDA86 /* Ocalculator */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B00179FF20B19683008FDA86 /* Resources */ = {
+		B0017A2220B19AB2008FDA86 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0017A1A20B1993C008FDA86 /* Main.storyboard in Resources */,
-				B0017A0F20B19683008FDA86 /* LaunchScreen.storyboard in Resources */,
-				B0017A0C20B19683008FDA86 /* Assets.xcassets in Resources */,
+				B0017A3220B19AB2008FDA86 /* LaunchScreen.storyboard in Resources */,
+				B0017A2F20B19AB2008FDA86 /* Assets.xcassets in Resources */,
+				B0017A2D20B19AB2008FDA86 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B00179FD20B19683008FDA86 /* Sources */ = {
+		B0017A2020B19AB2008FDA86 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0017A0720B19683008FDA86 /* ViewController.swift in Sources */,
-				B0017A1720B1981C008FDA86 /* Calbrain.swift in Sources */,
-				B0017A0520B19683008FDA86 /* AppDelegate.swift in Sources */,
+				B0017A2A20B19AB2008FDA86 /* ViewController.swift in Sources */,
+				B0017A3A20B19B25008FDA86 /* Calbrain.swift in Sources */,
+				B0017A2820B19AB2008FDA86 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B0017A0D20B19683008FDA86 /* LaunchScreen.storyboard */ = {
+		B0017A2B20B19AB2008FDA86 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B0017A0E20B19683008FDA86 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		B0017A1820B1993C008FDA86 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B0017A1920B1993C008FDA86 /* Base */,
+				B0017A2C20B19AB2008FDA86 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0017A3020B19AB2008FDA86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0017A3120B19AB2008FDA86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B0017A1120B19684008FDA86 /* Debug */ = {
+		B0017A3420B19AB2008FDA86 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		B0017A1220B19684008FDA86 /* Release */ = {
+		B0017A3520B19AB2008FDA86 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,36 +280,36 @@
 			};
 			name = Release;
 		};
-		B0017A1420B19684008FDA86 /* Debug */ = {
+		B0017A3720B19AB2008FDA86 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G7X87669T2;
-				INFOPLIST_FILE = "Ordinary-calculator/Info.plist";
+				INFOPLIST_FILE = Ocalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "jetfire-lu.Ordinary-calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = "jetfire-lu.Ocalculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		B0017A1520B19684008FDA86 /* Release */ = {
+		B0017A3820B19AB2008FDA86 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G7X87669T2;
-				INFOPLIST_FILE = "Ordinary-calculator/Info.plist";
+				INFOPLIST_FILE = Ocalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "jetfire-lu.Ordinary-calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = "jetfire-lu.Ocalculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,25 +319,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B00179FC20B19683008FDA86 /* Build configuration list for PBXProject "Ordinary-calculator" */ = {
+		B0017A1F20B19AB2008FDA86 /* Build configuration list for PBXProject "Ocalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B0017A1120B19684008FDA86 /* Debug */,
-				B0017A1220B19684008FDA86 /* Release */,
+				B0017A3420B19AB2008FDA86 /* Debug */,
+				B0017A3520B19AB2008FDA86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B0017A1320B19684008FDA86 /* Build configuration list for PBXNativeTarget "Ordinary-calculator" */ = {
+		B0017A3620B19AB2008FDA86 /* Build configuration list for PBXNativeTarget "Ocalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B0017A1420B19684008FDA86 /* Debug */,
-				B0017A1520B19684008FDA86 /* Release */,
+				B0017A3720B19AB2008FDA86 /* Debug */,
+				B0017A3820B19AB2008FDA86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B00179F920B19683008FDA86 /* Project object */;
+	rootObject = B0017A1C20B19AB2008FDA86 /* Project object */;
 }

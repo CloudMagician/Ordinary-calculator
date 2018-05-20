@@ -1,6 +1,6 @@
 //
 //  Calbrain.swift
-//  Ordinary-calculator
+//  Ocalculator
 //
 //  Created by 陆子旭 on 2018/5/20.
 //  Copyright © 2018年 jetfire lu. All rights reserved.
