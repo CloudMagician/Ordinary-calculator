@@ -48,6 +48,9 @@ struct CalBrain
                 }
             case .binaryOperation(let function):
                 if accumlator != nil{
+                    if pbo != nil {
+                        accumlator = pbo?.performOperation(with: accumlator!)
+                    }
                     pbo = PendingBinaryOperation(firstOperand: accumlator!, function: function)
                 }
             case .equal:
@@ -57,6 +60,7 @@ struct CalBrain
                 }
             case .clear:
                 accumlator = 0
+                pbo = nil
             }
         }
     }

@@ -22,16 +22,40 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var display: UILabel!
     
-    var userIsTyping = false
+    private var userIsTyping = false
     
     @IBAction func bottom(_ sender: UIButton) {
         let digit = sender.currentTitle!
         if userIsTyping {
-            display.text = display.text! + digit
+            if display.text!.count < 10 {
+                display.text = display.text! + digit
+            }
         }else {
             display.text = digit
             userIsTyping = true
         }
+    }
+    
+    private var IsPointFlag = false
+    
+    @IBAction func PointFlag(_ sender: UIButton) {
+        let digit = sender.currentTitle!
+        if userIsTyping {
+            if !display.text!.contains(".") {
+                display.text = display.text! + digit
+            }
+        }else {
+            display.text = "0" + digit
+            userIsTyping = true
+        }
+    }
+    
+    func CorrectOutput(_ Number: String) -> String {
+        var result = Number
+        if Number.hasSuffix(".0") {
+            result.removeLast(2)
+        }
+        return result
     }
     
     var displayValue:Double{
@@ -39,7 +63,7 @@ class ViewController: UIViewController {
             return Double(display.text!)!
         }
         set{
-            display.text = String(newValue)
+            display.text = CorrectOutput(String(newValue))
         }
     }
     
@@ -57,4 +81,3 @@ class ViewController: UIViewController {
         }
     }
 }
-
