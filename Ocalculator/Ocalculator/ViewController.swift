@@ -31,8 +31,10 @@ class ViewController: UIViewController {
                 display.text = display.text! + digit
             }
         }else {
-            display.text = digit
-            userIsTyping = true
+            if digit != "0" {
+                display.text = digit
+                userIsTyping = true
+            }
         }
     }
     
